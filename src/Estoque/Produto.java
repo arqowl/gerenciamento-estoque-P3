@@ -46,9 +46,9 @@ public abstract class Produto  implements Comparable <Produto>{
     
     // Método para comparar dois alunos pela matrícula    
     @Override
-    public int compareTo (Produto al) {
+    public int compareTo (Produto produto) {
         int result;
-        result = this.getCodigoProduto().compareTo(al.getCodigoProduto());
+        result = this.getCodigoProduto().compareTo(produto.getCodigoProduto());
         return result;
     }
     
